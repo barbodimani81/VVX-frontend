@@ -1,8 +1,79 @@
-# Node & Next.js
+# =========================
+# Node / Next.js Project
+# =========================
+
+# Dependencies
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Build output
 .next/
+out/
 dist/
 build/
+.turbo/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS / IDE junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+# Ignore build caches but not the compose or Dockerfile
+.docker/
+docker-data/
+docker-compose.override.yml
+
+# Next.js cache
+.next/
 out/
-logs/
+.cache/
+.vercel/
+
+# Coverage / testing
+coverage/
+*.lcov
+
+# Misc
 tmp/
+temp/
+*.tmp
+*.bak
+
+# Optional: lockfiles (if you prefer reproducible installs, remove this line)
+# package-lock.json
+
+# Optional: Tailwind CSS JIT cache
+*.css.map
+
+# =================================
+# END OF .gitignore
+# =================================
