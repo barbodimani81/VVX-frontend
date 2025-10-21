@@ -1,10 +1,4 @@
-# VVX Frontend - فروشگاه مد فارسی
-
-<div dir="rtl">
-
-یک فروشگاه اینترنتی مدرن و زیبا با رابط کاربری راست‌به‌چپ (RTL) برای بازار فارسی. این پروژه با استفاده از Next.js 13، TypeScript، و Tailwind CSS ساخته شده است.
-
-</div>
+# VVX Frontend 
 
 ## ✨ Features
 
